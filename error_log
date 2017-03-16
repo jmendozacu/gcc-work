@@ -1,0 +1,130 @@
+[17-Feb-2017 13:00:28 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /home/gccsuperstore/public_html/app/code/core/Mage/Core/Model/Layout.php:555
+Stack trace:
+#0 /home/gccsuperstore/public_html/app/code/core/Mage/Core/Controller/Varien/Action.php(390): Mage_Core_Model_Layout->getOutput()
+#1 /home/gccsuperstore/public_html/app/code/core/Mage/Install/controllers/WizardController.php(120): Mage_Core_Controller_Varien_Action->renderLayout()
+#2 /home/gccsuperstore/public_html/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Mage_Install_WizardController->beginAction()
+#3 /home/gccsuperstore/public_html/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('begin')
+#4 /home/gccsuperstore/public_html/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#5 /home/gccsuperstore/public_html/app/code/core/Mage/Core/Model/App.php(365): Mage_Core_Controller_Varien_Front->dispa in /home/gccsuperstore/public_html/app/code/core/Mage/Core/Model/Layout.php on line 555
+[17-Feb-2017 13:00:31 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /home/gccsuperstore/public_html/app/code/core/Mage/Core/Model/Layout.php:555
+Stack trace:
+#0 /home/gccsuperstore/public_html/app/code/core/Mage/Core/Controller/Varien/Action.php(390): Mage_Core_Model_Layout->getOutput()
+#1 /home/gccsuperstore/public_html/app/code/core/Mage/Install/controllers/WizardController.php(120): Mage_Core_Controller_Varien_Action->renderLayout()
+#2 /home/gccsuperstore/public_html/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Mage_Install_WizardController->beginAction()
+#3 /home/gccsuperstore/public_html/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('begin')
+#4 /home/gccsuperstore/public_html/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#5 /home/gccsuperstore/public_html/app/code/core/Mage/Core/Model/App.php(365): Mage_Core_Controller_Varien_Front->dispa in /home/gccsuperstore/public_html/app/code/core/Mage/Core/Model/Layout.php on line 555
+[17-Feb-2017 13:01:14 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /home/gccsuperstore/public_html/app/code/core/Mage/Core/Model/Layout.php:555
+Stack trace:
+#0 /home/gccsuperstore/public_html/app/code/core/Mage/Core/Controller/Varien/Action.php(390): Mage_Core_Model_Layout->getOutput()
+#1 /home/gccsuperstore/public_html/app/code/core/Mage/Install/controllers/WizardController.php(120): Mage_Core_Controller_Varien_Action->renderLayout()
+#2 /home/gccsuperstore/public_html/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Mage_Install_WizardController->beginAction()
+#3 /home/gccsuperstore/public_html/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('begin')
+#4 /home/gccsuperstore/public_html/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#5 /home/gccsuperstore/public_html/app/code/core/Mage/Core/Model/App.php(365): Mage_Core_Controller_Varien_Front->dispa in /home/gccsuperstore/public_html/app/code/core/Mage/Core/Model/Layout.php on line 555
+[17-Feb-2017 13:01:15 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /home/gccsuperstore/public_html/app/code/core/Mage/Core/Model/Layout.php:555
+Stack trace:
+#0 /home/gccsuperstore/public_html/app/code/core/Mage/Core/Controller/Varien/Action.php(390): Mage_Core_Model_Layout->getOutput()
+#1 /home/gccsuperstore/public_html/app/code/core/Mage/Install/controllers/WizardController.php(120): Mage_Core_Controller_Varien_Action->renderLayout()
+#2 /home/gccsuperstore/public_html/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Mage_Install_WizardController->beginAction()
+#3 /home/gccsuperstore/public_html/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('begin')
+#4 /home/gccsuperstore/public_html/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#5 /home/gccsuperstore/public_html/app/code/core/Mage/Core/Model/App.php(365): Mage_Core_Controller_Varien_Front->dispa in /home/gccsuperstore/public_html/app/code/core/Mage/Core/Model/Layout.php on line 555
+[17-Feb-2017 13:36:33 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /home/gccsuperstore/public_html/lib/Varien/File/Uploader.php:274
+Stack trace:
+#0 /home/gccsuperstore/public_html/lib/Varien/File/Uploader.php(187): Varien_File_Uploader->_validateFile()
+#1 /home/gccsuperstore/public_html/app/code/core/Mage/Adminhtml/controllers/Catalog/Product/GalleryController.php(46): Varien_File_Uploader->save('/home/gccsupers...')
+#2 /home/gccsuperstore/public_html/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Mage_Adminhtml_Catalog_Product_GalleryController->uploadAction()
+#3 /home/gccsuperstore/public_html/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('upload')
+#4 /home/gccsuperstore/public_html/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#5 /home/gccsuperstore/public_html/app/code/core/Mage/Core/Model/App.php(365): Mage_Core_Controller_Varien_Front->di in /home/gccsuperstore/public_html/lib/Varien/File/Uploader.php on line 274
+[17-Feb-2017 13:37:05 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /home/gccsuperstore/public_html/lib/Varien/File/Uploader.php:274
+Stack trace:
+#0 /home/gccsuperstore/public_html/lib/Varien/File/Uploader.php(187): Varien_File_Uploader->_validateFile()
+#1 /home/gccsuperstore/public_html/app/code/core/Mage/Adminhtml/controllers/Catalog/Product/GalleryController.php(46): Varien_File_Uploader->save('/home/gccsupers...')
+#2 /home/gccsuperstore/public_html/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Mage_Adminhtml_Catalog_Product_GalleryController->uploadAction()
+#3 /home/gccsuperstore/public_html/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('upload')
+#4 /home/gccsuperstore/public_html/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#5 /home/gccsuperstore/public_html/app/code/core/Mage/Core/Model/App.php(365): Mage_Core_Controller_Varien_Front->di in /home/gccsuperstore/public_html/lib/Varien/File/Uploader.php on line 274
+[17-Feb-2017 13:37:38 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /home/gccsuperstore/public_html/lib/Varien/File/Uploader.php:274
+Stack trace:
+#0 /home/gccsuperstore/public_html/lib/Varien/File/Uploader.php(187): Varien_File_Uploader->_validateFile()
+#1 /home/gccsuperstore/public_html/app/code/core/Mage/Adminhtml/controllers/Catalog/Product/GalleryController.php(46): Varien_File_Uploader->save('/home/gccsupers...')
+#2 /home/gccsuperstore/public_html/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Mage_Adminhtml_Catalog_Product_GalleryController->uploadAction()
+#3 /home/gccsuperstore/public_html/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('upload')
+#4 /home/gccsuperstore/public_html/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#5 /home/gccsuperstore/public_html/app/code/core/Mage/Core/Model/App.php(365): Mage_Core_Controller_Varien_Front->di in /home/gccsuperstore/public_html/lib/Varien/File/Uploader.php on line 274
+[17-Feb-2017 13:37:38 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /home/gccsuperstore/public_html/lib/Varien/File/Uploader.php:274
+Stack trace:
+#0 /home/gccsuperstore/public_html/lib/Varien/File/Uploader.php(187): Varien_File_Uploader->_validateFile()
+#1 /home/gccsuperstore/public_html/app/code/core/Mage/Adminhtml/controllers/Catalog/Product/GalleryController.php(46): Varien_File_Uploader->save('/home/gccsupers...')
+#2 /home/gccsuperstore/public_html/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Mage_Adminhtml_Catalog_Product_GalleryController->uploadAction()
+#3 /home/gccsuperstore/public_html/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('upload')
+#4 /home/gccsuperstore/public_html/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#5 /home/gccsuperstore/public_html/app/code/core/Mage/Core/Model/App.php(365): Mage_Core_Controller_Varien_Front->di in /home/gccsuperstore/public_html/lib/Varien/File/Uploader.php on line 274
+[17-Feb-2017 13:39:12 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /home/gccsuperstore/public_html/lib/Varien/File/Uploader.php:274
+Stack trace:
+#0 /home/gccsuperstore/public_html/lib/Varien/File/Uploader.php(187): Varien_File_Uploader->_validateFile()
+#1 /home/gccsuperstore/public_html/app/code/core/Mage/Adminhtml/controllers/Catalog/Product/GalleryController.php(46): Varien_File_Uploader->save('/home/gccsupers...')
+#2 /home/gccsuperstore/public_html/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Mage_Adminhtml_Catalog_Product_GalleryController->uploadAction()
+#3 /home/gccsuperstore/public_html/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('upload')
+#4 /home/gccsuperstore/public_html/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#5 /home/gccsuperstore/public_html/app/code/core/Mage/Core/Model/App.php(365): Mage_Core_Controller_Varien_Front->di in /home/gccsuperstore/public_html/lib/Varien/File/Uploader.php on line 274
+[17-Feb-2017 13:40:49 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /home/gccsuperstore/public_html/lib/Varien/File/Uploader.php:274
+Stack trace:
+#0 /home/gccsuperstore/public_html/lib/Varien/File/Uploader.php(187): Varien_File_Uploader->_validateFile()
+#1 /home/gccsuperstore/public_html/app/code/core/Mage/Adminhtml/controllers/Catalog/Product/GalleryController.php(46): Varien_File_Uploader->save('/home/gccsupers...')
+#2 /home/gccsuperstore/public_html/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Mage_Adminhtml_Catalog_Product_GalleryController->uploadAction()
+#3 /home/gccsuperstore/public_html/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('upload')
+#4 /home/gccsuperstore/public_html/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#5 /home/gccsuperstore/public_html/app/code/core/Mage/Core/Model/App.php(365): Mage_Core_Controller_Varien_Front->di in /home/gccsuperstore/public_html/lib/Varien/File/Uploader.php on line 274
+[18-Feb-2017 04:49:42 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /home/gccsuperstore/public_html/lib/Varien/File/Uploader.php:274
+Stack trace:
+#0 /home/gccsuperstore/public_html/lib/Varien/File/Uploader.php(187): Varien_File_Uploader->_validateFile()
+#1 /home/gccsuperstore/public_html/app/code/core/Mage/Catalog/Model/Category/Attribute/Backend/Image.php(65): Varien_File_Uploader->save('/home/gccsupers...')
+#2 /home/gccsuperstore/public_html/app/code/core/Mage/Eav/Model/Entity/Abstract.php(657): Mage_Catalog_Model_Category_Attribute_Backend_Image->afterSave(Object(Mage_Catalog_Model_Category))
+#3 /home/gccsuperstore/public_html/app/code/core/Mage/Eav/Model/Entity/Abstract.php(1660): Mage_Eav_Model_Entity_Abstract->walkAttributes('backend/afterSa...', Array)
+#4 /home/gccsuperstore/public_html/app/code/core/Mage/Catalog/Model/Resource/Category.php(235): Mage_Eav_Model_Entity_Abstract->_afterSave(Object(Mage_Catalog_Model_Category))
+#5 /home/gccsuperstore/public_html/app/code/core/Mage/Eav/Model/Entity/Abstract.php(1124): Mage_ in /home/gccsuperstore/public_html/lib/Varien/File/Uploader.php on line 274
+[18-Feb-2017 04:53:55 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /home/gccsuperstore/public_html/lib/Varien/File/Uploader.php:274
+Stack trace:
+#0 /home/gccsuperstore/public_html/lib/Varien/File/Uploader.php(187): Varien_File_Uploader->_validateFile()
+#1 /home/gccsuperstore/public_html/app/code/core/Mage/Catalog/Model/Category/Attribute/Backend/Image.php(65): Varien_File_Uploader->save('/home/gccsupers...')
+#2 /home/gccsuperstore/public_html/app/code/core/Mage/Eav/Model/Entity/Abstract.php(657): Mage_Catalog_Model_Category_Attribute_Backend_Image->afterSave(Object(Mage_Catalog_Model_Category))
+#3 /home/gccsuperstore/public_html/app/code/core/Mage/Eav/Model/Entity/Abstract.php(1660): Mage_Eav_Model_Entity_Abstract->walkAttributes('backend/afterSa...', Array)
+#4 /home/gccsuperstore/public_html/app/code/core/Mage/Catalog/Model/Resource/Category.php(235): Mage_Eav_Model_Entity_Abstract->_afterSave(Object(Mage_Catalog_Model_Category))
+#5 /home/gccsuperstore/public_html/app/code/core/Mage/Eav/Model/Entity/Abstract.php(1124): Mage_ in /home/gccsuperstore/public_html/lib/Varien/File/Uploader.php on line 274
+[18-Feb-2017 05:12:42 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /home/gccsuperstore/public_html/lib/Varien/File/Uploader.php:274
+Stack trace:
+#0 /home/gccsuperstore/public_html/lib/Varien/File/Uploader.php(187): Varien_File_Uploader->_validateFile()
+#1 /home/gccsuperstore/public_html/app/code/core/Mage/Adminhtml/controllers/Catalog/Product/GalleryController.php(46): Varien_File_Uploader->save('/home/gccsupers...')
+#2 /home/gccsuperstore/public_html/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Mage_Adminhtml_Catalog_Product_GalleryController->uploadAction()
+#3 /home/gccsuperstore/public_html/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('upload')
+#4 /home/gccsuperstore/public_html/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#5 /home/gccsuperstore/public_html/app/code/core/Mage/Core/Model/App.php(365): Mage_Core_Controller_Varien_Front->di in /home/gccsuperstore/public_html/lib/Varien/File/Uploader.php on line 274
+[18-Feb-2017 05:14:58 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /home/gccsuperstore/public_html/lib/Varien/File/Uploader.php:274
+Stack trace:
+#0 /home/gccsuperstore/public_html/lib/Varien/File/Uploader.php(187): Varien_File_Uploader->_validateFile()
+#1 /home/gccsuperstore/public_html/app/code/core/Mage/Catalog/Model/Category/Attribute/Backend/Image.php(65): Varien_File_Uploader->save('/home/gccsupers...')
+#2 /home/gccsuperstore/public_html/app/code/core/Mage/Eav/Model/Entity/Abstract.php(657): Mage_Catalog_Model_Category_Attribute_Backend_Image->afterSave(Object(Mage_Catalog_Model_Category))
+#3 /home/gccsuperstore/public_html/app/code/core/Mage/Eav/Model/Entity/Abstract.php(1660): Mage_Eav_Model_Entity_Abstract->walkAttributes('backend/afterSa...', Array)
+#4 /home/gccsuperstore/public_html/app/code/core/Mage/Catalog/Model/Resource/Category.php(235): Mage_Eav_Model_Entity_Abstract->_afterSave(Object(Mage_Catalog_Model_Category))
+#5 /home/gccsuperstore/public_html/app/code/core/Mage/Eav/Model/Entity/Abstract.php(1124): Mage_ in /home/gccsuperstore/public_html/lib/Varien/File/Uploader.php on line 274
+[02-Mar-2017 05:35:21 UTC] PHP Fatal error:  Uncaught Error: [] operator not supported for strings in /home/gccsuperstore/public_html/app/code/local/Smartwave/Megamenu/Block/Navigation.php:169
+Stack trace:
+#0 /home/gccsuperstore/public_html/app/code/local/Smartwave/Megamenu/Helper/Data.php(177): Smartwave_Megamenu_Block_Navigation->drawMegaMenuItem(Object(Varien_Data_Tree_Node), 'dt')
+#1 /home/gccsuperstore/public_html/app/design/frontend/smartwave/porto/template/smartwave/megamenu/html/topmenu.phtml(9): Smartwave_Megamenu_Helper_Data->getMenuContent()
+#2 /home/gccsuperstore/public_html/app/code/core/Mage/Core/Block/Template.php(241): include('/home/gccsupers...')
+#3 /home/gccsuperstore/public_html/app/code/core/Mage/Core/Block/Template.php(272): Mage_Core_Block_Template->fetchView('frontend/smartw...')
+#4 /home/gccsuperstore/public_html/app/code/core/Mage/Core/Block/Template.php(286): Mage_Core_Block_Template->renderView()
+#5 /home/gccsuperstore/public_html/app/code/core/Mage/Core/Block/Abstract.php(919): Mage_Core_Block_Template->_toHtml()
+#6 /home/gc in /home/gccsuperstore/public_html/app/code/local/Smartwave/Megamenu/Block/Navigation.php on line 169
+[02-Mar-2017 05:35:28 UTC] PHP Fatal error:  Uncaught Error: [] operator not supported for strings in /home/gccsuperstore/public_html/app/code/local/Smartwave/Megamenu/Block/Navigation.php:169
+Stack trace:
+#0 /home/gccsuperstore/public_html/app/code/local/Smartwave/Megamenu/Helper/Data.php(177): Smartwave_Megamenu_Block_Navigation->drawMegaMenuItem(Object(Varien_Data_Tree_Node), 'dt')
+#1 /home/gccsuperstore/public_html/app/design/frontend/smartwave/porto/template/smartwave/megamenu/html/topmenu.phtml(9): Smartwave_Megamenu_Helper_Data->getMenuContent()
+#2 /home/gccsuperstore/public_html/app/code/core/Mage/Core/Block/Template.php(241): include('/home/gccsupers...')
+#3 /home/gccsuperstore/public_html/app/code/core/Mage/Core/Block/Template.php(272): Mage_Core_Block_Template->fetchView('frontend/smartw...')
+#4 /home/gccsuperstore/public_html/app/code/core/Mage/Core/Block/Template.php(286): Mage_Core_Block_Template->renderView()
+#5 /home/gccsuperstore/public_html/app/code/core/Mage/Core/Block/Abstract.php(919): Mage_Core_Block_Template->_toHtml()
+#6 /home/gc in /home/gccsuperstore/public_html/app/code/local/Smartwave/Megamenu/Block/Navigation.php on line 169
