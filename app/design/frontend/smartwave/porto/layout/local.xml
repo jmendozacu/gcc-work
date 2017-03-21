@@ -101,7 +101,13 @@
         </reference>
         <reference name="top.links">
             <remove name="checkout_cart_link"/>
+            <remove name="store_language"/>
         </reference>
+ 
+        <reference name="top.links">
+        <action method="removeLinkByUrl"><url helper="dailydeal/getTopLink"/></action>
+        </reference>
+
         <reference name="top.menu">
             <action method="unsetChild" ifconfig="porto_settings/header/type" condition="9"><name>catalog.topnav</name></action>
             <block type="core/template" name="topnav.sidemenu">

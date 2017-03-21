@@ -77,6 +77,21 @@ class Smartwave_Filterproducts_IndexController extends Mage_Core_Controller_Fron
 		$this->getLayout()->getBlock('head')->setTitle('Featured Products');    
 		$this->renderLayout();
     }
+    public function cbdAction()
+    {
+
+		$url = Mage::getUrl('no-route'); 
+
+		$enable = Mage::getStoreConfig('filterproducts/config8/active');
+		if($enable != 1) 
+		{
+			Mage::app()->getFrontController()->getResponse()->setRedirect($url);
+		}
+
+		$this->loadLayout(); 
+		$this->getLayout()->getBlock('head')->setTitle('cbd Products');    
+		$this->renderLayout();
+    }
 	public function mostviewedAction()
     {
 
