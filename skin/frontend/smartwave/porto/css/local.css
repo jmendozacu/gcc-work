@@ -3588,4 +3588,4 @@ container.type16 .compare-popup{font-weight:400}
 .header-container.type21 .header .form-search button.button{width: 50px;}
 .header-container.type21 .header .form-search button.button i:before{content: "\e884";}
 .header-container.type21 .header .custom-block a{font-size:12px}
-#nav_links{display:block;float:left;font-size:11px;line-height:26px;margin-left:5px;text-transform:uppercase;}
+#nav_links{display:block;float:left;font-size:11px;line-height:26px;margin-left:5px;text-transform:uppercase;padding:0 15px;}
