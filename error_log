@@ -128,3 +128,29 @@ Stack trace:
 #4 /home/gccsuperstore/public_html/app/code/core/Mage/Core/Block/Template.php(286): Mage_Core_Block_Template->renderView()
 #5 /home/gccsuperstore/public_html/app/code/core/Mage/Core/Block/Abstract.php(919): Mage_Core_Block_Template->_toHtml()
 #6 /home/gc in /home/gccsuperstore/public_html/app/code/local/Smartwave/Megamenu/Block/Navigation.php on line 169
+[16-Mar-2017 06:27:10 UTC] PHP Fatal error:  Uncaught Error: Unsupported operand types in /home/gccsuperstore/public_html/app/code/core/Mage/ConfigurableSwatches/Helper/Mediafallback.php:61
+Stack trace:
+#0 /home/gccsuperstore/public_html/app/code/core/Mage/ConfigurableSwatches/Model/Observer.php(93): Mage_ConfigurableSwatches_Helper_Mediafallback->attachConfigurableProductChildrenAttributeMapping(Array, '1')
+#1 /home/gccsuperstore/public_html/app/code/core/Mage/Core/Model/App.php(1358): Mage_ConfigurableSwatches_Model_Observer->productLoadAfter(Object(Varien_Event_Observer))
+#2 /home/gccsuperstore/public_html/app/code/core/Mage/Core/Model/App.php(1337): Mage_Core_Model_App->_callObserverMethod(Object(Mage_ConfigurableSwatches_Model_Observer), 'productLoadAfte...', Object(Varien_Event_Observer))
+#3 /home/gccsuperstore/public_html/app/Mage.php(448): Mage_Core_Model_App->dispatchEvent('catalog_product...', Array)
+#4 /home/gccsuperstore/public_html/app/code/core/Mage/Core/Model/Abstract.php(267): Mage::dispatchEvent('catalog_product...', Array)
+#5 /home/gcc in /home/gccsuperstore/public_html/app/code/core/Mage/ConfigurableSwatches/Helper/Mediafallback.php on line 61
+[16-Mar-2017 06:27:19 UTC] PHP Fatal error:  Uncaught Error: Unsupported operand types in /home/gccsuperstore/public_html/app/code/core/Mage/ConfigurableSwatches/Helper/Mediafallback.php:61
+Stack trace:
+#0 /home/gccsuperstore/public_html/app/code/core/Mage/ConfigurableSwatches/Model/Observer.php(93): Mage_ConfigurableSwatches_Helper_Mediafallback->attachConfigurableProductChildrenAttributeMapping(Array, '1')
+#1 /home/gccsuperstore/public_html/app/code/core/Mage/Core/Model/App.php(1358): Mage_ConfigurableSwatches_Model_Observer->productLoadAfter(Object(Varien_Event_Observer))
+#2 /home/gccsuperstore/public_html/app/code/core/Mage/Core/Model/App.php(1337): Mage_Core_Model_App->_callObserverMethod(Object(Mage_ConfigurableSwatches_Model_Observer), 'productLoadAfte...', Object(Varien_Event_Observer))
+#3 /home/gccsuperstore/public_html/app/Mage.php(448): Mage_Core_Model_App->dispatchEvent('catalog_product...', Array)
+#4 /home/gccsuperstore/public_html/app/code/core/Mage/Core/Model/Abstract.php(267): Mage::dispatchEvent('catalog_product...', Array)
+#5 /home/gcc in /home/gccsuperstore/public_html/app/code/core/Mage/ConfigurableSwatches/Helper/Mediafallback.php on line 61
+[16-Mar-2017 10:01:39 UTC] PHP Parse error:  syntax error, unexpected '\' (T_NS_SEPARATOR), expecting function (T_FUNCTION) in /home/gccsuperstore/public_html/app/code/community/Bitpay/Core/Model/Config/PairingCode.php on line 41
+[17-Mar-2017 05:15:47 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getBody() on null in /home/gccsuperstore/public_html/lib/Bitpay/Client/Client.php:498
+Stack trace:
+#0 /home/gccsuperstore/public_html/app/code/community/Bitpay/Core/Helper/Data.php(164): Bitpay\Client\Client->createToken(Array)
+#1 /home/gccsuperstore/public_html/app/code/community/Bitpay/Core/Model/Config/PairingCode.php(32): Bitpay_Core_Helper_Data->sendPairingRequest('a7rvPBg')
+#2 /home/gccsuperstore/public_html/app/code/core/Mage/Core/Model/Resource/Transaction.php(151): Bitpay_Core_Model_Config_PairingCode->save()
+#3 /home/gccsuperstore/public_html/app/code/core/Mage/Adminhtml/Model/Config/Data.php(206): Mage_Core_Model_Resource_Transaction->save()
+#4 /home/gccsuperstore/public_html/app/code/core/Mage/Adminhtml/controllers/System/ConfigController.php(165): Mage_Adminhtml_Model_Config_Data->save()
+#5 /home/gccsuperstore/public_html/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Mage_Adminhtml_System_ConfigController->saveAction()
+#6 /home/gccsuperstore/ in /home/gccsuperstore/public_html/lib/Bitpay/Client/Client.php on line 498

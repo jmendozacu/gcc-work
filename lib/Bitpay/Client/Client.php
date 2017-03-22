@@ -489,7 +489,6 @@ class Client implements ClientInterface
         if (isset($payload['pairingCode']) && 1 !== preg_match('/^[a-zA-Z0-9]{7}$/', $payload['pairingCode'])) {
             throw new ArgumentException("pairing code is not legal");
         }
-
         $this->request = $this->createNewRequest();
         $this->request->setMethod(Request::METHOD_POST);
         $this->request->setPath('tokens');
@@ -497,11 +496,9 @@ class Client implements ClientInterface
         $this->request->setBody(json_encode($payload));
         $this->response = $this->sendRequest($this->request);
         $body           = json_decode($this->response->getBody(), true);
-
         if (isset($body['error'])) {
             throw new \Bitpay\Client\BitpayException($this->response->getStatusCode().": ".$body['error']);
         }
-
         $tkn = $body['data'][0];
         $createdAt = new \DateTime();
         $pairingExpiration = new \DateTime();
@@ -521,7 +518,6 @@ class Client implements ClientInterface
             $token->setPairingCode($tkn['pairingCode']);
             $token->setPairingExpiration($pairingExpiration->setTimestamp(floor($tkn['pairingExpiration']/1000)));
         }
-
         return $token;
     }
 

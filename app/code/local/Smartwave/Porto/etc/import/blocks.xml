@@ -2668,14 +2668,14 @@ body.side-header.cms-index-index .top-container .full-screen-slider{width:100vw;
         <cms_block>
             <title>Porto - Custom Block for Header Home 4</title>
             <identifier>porto_custom_block_for_header_home4</identifier>
-            <content><![CDATA[<i class="icon-phone-1" style="margin-right: 11px;font-size:30px;color:#40aee5;"></i><span style="margin-top:-2px;">CALL US NOW<br><b style="color:#fff;font-size:18px;font-weight:600;display:block;line-height:27px;">+123 5678 890</b></span>]]></content>
+            <content><![CDATA[<i class="icon-phone-1" style="margin-right: 11px;font-size:30px;color:#40aee5;"></i><span style="margin-top:-2px;">CALL US<br><b style="color:#fff;font-size:18px;font-weight:600;display:block;line-height:27px;">727-482-1505</b></span>]]></content>
             <is_active>1</is_active>
             <stores><item>0</item></stores>
         </cms_block>
         <cms_block>
             <title>Porto - Custom Block for Header Home 5</title>
             <identifier>porto_custom_block_for_header_home5</identifier>
-            <content><![CDATA[<span style="margin-top:4px;color:#787d7f;display:block;">CALL US NOW<br><b style="color:#606669;font-size:18px;font-weight:600;display:block;line-height:27px;">+123 5678 890</b></span>]]></content>
+            <content><![CDATA[<span style="margin-top:4px;color:#787d7f;display:block;">CALL US NOW<br><b style="color:#000;font-size:18px;font-weight:600;display:block;line-height:27px;">727-482-1505</b></span>]]></content>
             <is_active>1</is_active>
             <stores><item>0</item></stores>
         </cms_block>

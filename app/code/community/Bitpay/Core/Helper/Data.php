@@ -145,7 +145,6 @@ class Bitpay_Core_Helper_Data extends Mage_Core_Helper_Abstract
         // Generate/Regenerate keys
         $this->generateAndSaveKeys();
         $sin = $this->getSinKey();
-
         if (false === isset($sin) || true === empty($sin)) {
             $this->debugData('[ERROR] In Bitpay_Core_Helper_Data::sendPairingRequest(): could not retrieve the SIN parameter. Cannot continue!');
             throw new \Exception('In Bitpay_Core_Helper_Data::sendPairingRequest(): could not retrieve the SIN parameter. Cannot continue!');
@@ -158,7 +157,6 @@ class Bitpay_Core_Helper_Data extends Mage_Core_Helper_Abstract
         $label = substr('Magento ' . $label, 0, 59);
 
         $this->debugData('[INFO] In Bitpay_Core_Helper_Data::sendPairingRequest(): using the label "' . $label . '".');
-
         $token = $this->getBitpayClient()->createToken(
                                                        array(
                                                             'id'          => (string) $sin,
@@ -166,7 +164,6 @@ class Bitpay_Core_Helper_Data extends Mage_Core_Helper_Abstract
                                                             'label'       => (string) $label,
                                                        )
                                            );
-
         if (false === isset($token) || true === empty($token)) {
             $this->debugData('[ERROR] In Bitpay_Core_Helper_Data::sendPairingRequest(): could not obtain the token from the pairing process. Cannot continue!');
             throw new \Exception('In Bitpay_Core_Helper_Data::sendPairingRequest(): could not obtain the token from the pairing process. Cannot continue!');

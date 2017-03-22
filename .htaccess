@@ -232,3 +232,10 @@
         Deny from all
 
     </Files>
+
+# php -- BEGIN cPanel-generated handler, do not edit
+# Set the “ea-php70” package as the default “PHP” programming language.
+<IfModule mime_module>
+  AddType application/x-httpd-php .php .php7 .phtml
+</IfModule>
+# php -- END cPanel-generated handler, do not edit

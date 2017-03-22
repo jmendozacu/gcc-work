@@ -22,7 +22,6 @@ class Bitpay_Core_Model_Config_PairingCode extends Mage_Core_Model_Config_Data
          * pairing code.
          */
         $pairingCode = trim($this->getValue());
-
         if (true === empty($pairingCode)) {
             return;
         }
