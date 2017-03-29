@@ -879,7 +879,7 @@ dl#narrow-by-list{margin:0}
 .category-products li.item .product-image-area:hover .product-image img.hoverImage{opacity:1;filter:alpha(opacity=100)}
 .category-products .products-grid li.item .details-area{padding:10px;text-align:center}
 .category-products .products-grid li.item .details-area .product-name{margin:0 0 3px}
-.category-products .products-grid li.item .details-area .product-name a{font-size:14px}
+.category-products .products-grid li.item .details-area .product-name a{font-size:14px;display: block;height: 60px;}
 .col-main.filter-products .product-name a{color:#fff}
 .col-main.filter-products li.item:hover .details-area .product-name a{color:#777}
 .col-main.filter-products .price-box .price{color:#fff}
@@ -2153,7 +2153,7 @@ p.tall{color:#777;line-height:24px;margin:0 0 20px;font-size:14px}
 .filter-products .products div.item .product-image-area:hover .product-image img.hoverImage{opacity:1;filter:alpha(opacity=100)}
 .filter-products .products div.item .details-area{padding:10px;text-align:center}
 .filter-products .products div.item .details-area .product-name{margin:0 0 3px}
-.filter-products .products div.item .details-area .product-name a{font-size:14px}
+.filter-products .products div.item .details-area .product-name a{font-size:14px;display: block;height: 60px;}
 .block-layered-nav .filter-products .products div.item:hover .item-area{background-color:transparent;border-color:transparent;box-shadow:none}
 .owl-top-narrow{margin:0 -10px}
 .owl-top-narrow .owl-item .item{padding:0 10px}
