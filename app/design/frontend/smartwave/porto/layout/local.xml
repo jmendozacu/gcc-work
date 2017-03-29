@@ -347,5 +347,10 @@
             <action method="setTemplate"><template>page/1column.phtml</template></action>
         </reference>
     </sendfriend_product_send>
+    <catalog_product_view>
+    <reference name="right">
+        <block type="catalog/product_list_related" name="catalog.product.related" before="porto_product_right_side_1" template="catalog/product/list/related.phtml"/>
+    </reference>
+</catalog_product_view>
 
 </layout>
