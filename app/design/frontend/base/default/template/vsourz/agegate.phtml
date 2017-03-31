@@ -15,7 +15,7 @@ if($showPop == "Y"):
 <div class="age-outer-bg">&nbsp;</div>
 <!-- Popup Box -->
 <div class="age-pop-up ageconf" style="height:<?php echo $height; ?>; width:<?php echo $width; ?>">
-	<h3><?php echo $blockTitle; ?></h3>
+	<h3><?php echo $this->__('Age Verification') ?></h3>
 	<div class="age-pop-cont">
 	<div class="verify">
 		<?php echo $this->getLayout()->createBlock('cms/block')->setBlockId($blockId)->toHtml(); ?>
