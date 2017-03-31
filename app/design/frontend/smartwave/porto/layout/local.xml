@@ -46,6 +46,8 @@
             <action method="addCss"><stylesheet>icons/css/porto.css</stylesheet></action>
             <action method="addCss"><stylesheet>icons/css/animation.css</stylesheet></action>
             <action method="addCss" ifconfig="porto_settings/general/rtl" condition="0"><stylesheet>css/local.css</stylesheet></action>
+            <action method="addCss" ifconfig="porto_settings/general/rtl" condition="0"><stylesheet>css/configed/custom_settings_default.css</stylesheet></action>
+             <action method="addCss" ifconfig="porto_settings/general/rtl" condition="0"><stylesheet>css/custom_local.css</stylesheet></action>
             <action method="addCss" ifconfig="porto_settings/general/rtl" condition="1"><stylesheet>css/rtl.css</stylesheet></action>
             <action method="addCss" ifconfig="porto_settings/general/rtl" condition="0"><stylesheet>css/responsive.css</stylesheet></action>
             <action method="addCss" ifconfig="porto_settings/general/rtl" condition="1"><stylesheet>css/rtl-responsive.css</stylesheet></action>
