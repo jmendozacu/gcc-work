@@ -1,1 +1,2 @@
 .header-container.type21 .fixed-header .menu >li.menu-full-width .nav-sublist-dropdown .container ul >li >a.level1, .header-container.type21 .main-nav .menu >li.menu-full-width .nav-sublist-dropdown .container ul >li >a.level1, .header-container.type21 .fixed-header .menu >li.menu-static-width .nav-sublist-dropdown .container ul >li >a.level1, .header-container.type21 .main-nav .menu >li.menu-static-width .nav-sublist-dropdown .container ul >li >a.level1 {margin-top:14px;}
+.product-options dd select:disabled { color: #aaa; background-color: #eee;}
