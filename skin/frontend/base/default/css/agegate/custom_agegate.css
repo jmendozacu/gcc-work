@@ -1,3 +1,5 @@
 .age-pop-up h3{ background: #0085c3; }
 .age-pop-up .button{ background: #0085c3; }
 .age-pop-up .button:hover { background: #0085c3; }
+.age-pop-up h2{ color: black; }
+.age-pop-up.open { background: white; }
