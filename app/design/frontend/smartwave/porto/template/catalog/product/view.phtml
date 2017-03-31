@@ -54,6 +54,7 @@
 <?php
 if($enable_addtocart_sticky){
 ?>
+<?php $this->helper('yotpo')->showWidget($this, $_product); ?>
         <div class="sticky-product hide <?php echo $sticky_header; ?>">
             <div class="container">
 <?php
@@ -196,7 +197,7 @@ if($enable_addtocart_sticky){
                 <?php 
                 if (Mage::helper('catalog')->isModuleEnabled('Mage_Review')):
                 ?>
-                <?php 
+                <!-- <?php 
                     $review_html = $this->getReviewsSummaryHtml($product);
                     if($review_html){
                         echo $review_html;
@@ -228,7 +229,7 @@ if($enable_addtocart_sticky){
                         <h2><?php echo $this->__('Quick Overview') ?></h2>
                         <div class="std" <?php if($enabled_richsnippets): ?>itemprop="description"<?php endif; ?>><?php echo $_helper->productAttribute($_product, nl2br($_product->getShortDescription()), 'short_description') ?></div>
                     </div>
-                <?php endif;?>
+                <?php endif;?> -->
                 <?php if($custom_block_html && $move_custom_block):?>
                     <div class="short-custom-block">
                         <?php echo $custom_block_html; ?>

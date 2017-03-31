@@ -1,4 +1,5 @@
 <?php
+    $_product = Mage::registry('current_product')->getName();
     $store = Mage::app()->getStore();
     $code  = $store->getCode();
     $helper = Mage::helper("porto");
@@ -134,6 +135,9 @@
     <?php $i++; ?>
     <?php endif; ?>
 <?php endforeach; ?>
+<div id="yotpo-placeholder">
+    <?php $this->helper('yotpo')->showWidget($this, $_product); ?>
+</div>
 <?php
     for($i=1;$i<=5;$i++){
         $custom_tab = "attribute_tab_".$i;
