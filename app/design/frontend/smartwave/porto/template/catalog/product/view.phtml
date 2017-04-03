@@ -194,42 +194,15 @@ if($enable_addtocart_sticky){
                 <?php endif; ?>
                 <?php endif; ?>
 
-                <?php 
-                if (Mage::helper('catalog')->isModuleEnabled('Mage_Review')):
-                ?>
-                <!-- <?php 
-                    $review_html = $this->getReviewsSummaryHtml($product);
-                    if($review_html){
-                        echo $review_html;
-                    }else{
-                ?>
-                    <div class="ratings">
-                        <div class="rating-box">
-                            <div class="rating" style="width:0"></div>
-                        </div>
-                        <p class="rating-links">
-                            <a href="javascript:void(0)"><?php echo $this->__('%s Review(s)', 0);?></a>
-                        </p>
-                    </div>
-                <?php                            
-                    }
-                ?>
-                <?php else: ?>
-                    <div class="ratings">
-                        <div class="rating-box">
-                            <div class="rating" style="width:0"></div>
-                        </div>
-                        <p class="rating-links">
-                            <a href="javascript:void(0)"><?php echo $this->__('%s Review(s)', 0);?></a>
-                        </p>
-                    </div>
-                <?php endif; ?>
+                 <div id="review_product" >
+                <?php $this->helper('yotpo')->showBottomline($this, $_product); ?>
+                  </div>
                 <?php if ($_product->getShortDescription()):?>
                     <div class="short-description <?php if($move_custom_block):?>no-border<?php endif;?>"">
                         <h2><?php echo $this->__('Quick Overview') ?></h2>
                         <div class="std" <?php if($enabled_richsnippets): ?>itemprop="description"<?php endif; ?>><?php echo $_helper->productAttribute($_product, nl2br($_product->getShortDescription()), 'short_description') ?></div>
                     </div>
-                <?php endif;?> -->
+                <?php endif;?>
                 <?php if($custom_block_html && $move_custom_block):?>
                     <div class="short-custom-block">
                         <?php echo $custom_block_html; ?>
