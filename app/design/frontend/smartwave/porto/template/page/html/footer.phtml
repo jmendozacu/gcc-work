@@ -73,6 +73,7 @@
                 <?php
                     }
                 ?>
+                <?php echo $this->getLayout()->createBlock('cms/block')->setBlockId('footer-copyright')->toHtml(); ?>
                 </div>
                 <?php echo $this->getChildHtml("demo_footer_tooltip"); ?>
             </div>
