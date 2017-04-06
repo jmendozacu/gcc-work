@@ -86,7 +86,7 @@
 .etalage, .etalage_small_thumbs li{ float:left }
 .etalage_right{ float:right }
 .etalage li{ position:absolute }
-.etalage img{ vertical-align:bottom; max-width:none;height: 190px;}
+.etalage img{ vertical-align:bottom; max-width:none;height: 73px;}
 .etalage_magnifier{ cursor:default }
 .etalage_magnifier div, .etalage_small_thumbs{ overflow:hidden }
 .etalage_magnifier div img{ display:none }
