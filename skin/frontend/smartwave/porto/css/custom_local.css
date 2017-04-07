@@ -2,5 +2,5 @@
 .product-options dd select:disabled { color: #aaa; background-color: #eee;}
 #review{ margin: 0px auto; width: 160px;height: 30px; }
 .configurable-swatch-list { margin-top: -25px; }
-/*#configurable_swatch_col  { margin-top:  0px; }*/
+#configurable_swatch_color  { margin-top:  0px; }
 #div_height{ height: 30px; }
