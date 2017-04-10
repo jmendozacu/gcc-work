@@ -136,10 +136,10 @@ a.addtocart i.icon-cart:before {
     font-family: 'Oswald';
     font-weight: 400;
     letter-spacing: 0.025em;
-    color: #444;
+    color: #fff;
     line-height: 28px;
-    background-color: #F5F594;
-    border-color: #eee;
+    background-color: #25A159;
+    border-color: #25A159;
 }
 .item .details-area .actions a.addtocart span {
     margin-top: -4px;
@@ -147,9 +147,9 @@ a.addtocart i.icon-cart:before {
     vertical-align: middle;
 }
 .item:hover .details-area .actions a.addtocart {
-    border-color: #eee;
-    background-color: #F5F594;
-    color: #444;
+    border-color: #25A159;
+    background-color: #25A159;
+    color: #fff;
 }
 a.addtowishlist,a.comparelink {
     color: #2b2b2d;
