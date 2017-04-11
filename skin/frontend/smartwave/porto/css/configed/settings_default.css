@@ -1118,7 +1118,7 @@ body.boxed .page{overflow:visible;}
     border-top: 1px solid #3d3d38;
     text-align: left;
     padding: 27px 0;
-    overflow: hidden;
+    /*overflow: hidden;*/
     margin-top: 32px;
 }
 .footer-middle .working span {
