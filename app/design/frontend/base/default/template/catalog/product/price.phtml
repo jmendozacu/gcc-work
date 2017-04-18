@@ -214,6 +214,10 @@ $_specialPriceStoreLabel = $this->getProductAttribute('special_price')->getStore
             <?php endif; ?>
         <?php endif; ?>
     <?php else: /* if ($_finalPrice == $_price): */ ?>
+        <?php $product_sku=$this->htmlEscape($_product->getData('sku'));?>
+        <?php if ($product_sku == ('Hemp_Soap')): ?>
+        <div class="NAME_YOUR_SPAN"><?php echo $this->__("(Quantity of 3 per order)") ?></div>
+        <?php endif; ?>
         <?php $_originalWeeeTaxAmount = $_weeeHelper->getOriginalAmount($_product); ?>
         <?php $_originalWeeeTaxAmount = $_store->roundPrice($_store->convertPrice($_originalWeeeTaxAmount)) ?>
 
