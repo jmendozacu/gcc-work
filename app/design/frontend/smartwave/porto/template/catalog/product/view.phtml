@@ -214,6 +214,9 @@ if($enable_addtocart_sticky){
                         <?php echo $this->getTierPriceHtml(); ?>
                         <?php echo $price_properties; ?>
                     </div>
+                    <div id="customtext" >
+                    <?php echo $_product->getData("customtext"); ?>
+                    </div>
                     <?php echo $this->getChildHtml('extrahint') ?>
                     <?php if ($this->canEmailToFriend()): ?>
                         <p class="email-friend"><a href="<?php echo $this->helper('catalog/product')->getEmailToFriendUrl($_product) ?>"><?php echo $this->__('Email to a Friend') ?></a></p>
